@@ -29,8 +29,10 @@ def dogs
 Dog.all.select {|dog| dog.owner == self}
 end
 
-def buy_cat(name)
-if 
+def buy_cat(newcat)
+if newcat == Cat.new 
+  cats << newcat 
+end
 
 end
 
