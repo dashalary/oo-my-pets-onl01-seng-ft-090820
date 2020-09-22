@@ -37,6 +37,13 @@ end
 
 end
 
+def buy_dog(newdog)
+if newdog == Dog.new(name, self) 
+self.dogs << newdog
+
+end
+
+end
 
 
 
