@@ -22,7 +22,7 @@ def self.reset_all
 end
  
 def cats 
-Cat.all.select {|cat| cat.owner == self}
+mycats = Cat.all.select {|cat| cat.owner == self}
 end  
  
 def dogs 
