@@ -33,7 +33,6 @@ def buy_cat(newcat)
 if newcat == Cat.new(name, self) 
 self.cats << newcat
 end
-
 end
 
 
