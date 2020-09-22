@@ -58,3 +58,4 @@ end
 def list_pets
 pets.each {|pet| pet}
 end
+end
