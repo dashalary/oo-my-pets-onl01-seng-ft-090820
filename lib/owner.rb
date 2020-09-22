@@ -7,7 +7,7 @@ def initialize(name)
 end
 
 def species
-puts "human"
+
 end
  
  
