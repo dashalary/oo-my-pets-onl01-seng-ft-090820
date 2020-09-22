@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def say_species
-puts "I am a #{@species}."
+puts "I am a human."
 end
  
  
