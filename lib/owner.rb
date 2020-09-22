@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def species
-@species = species
+
 end
  
  
