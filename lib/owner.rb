@@ -42,6 +42,6 @@ self.dogs << newdog
 end
 end
 
-
+def walk_dogs 
 
 end
