@@ -56,6 +56,6 @@ end
 end
 
 def list_pets
-puts "I have #{@owner.dogs.count} dog(s), and #{@owner.cats.count} cat(s)."
+puts "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
 end
 end
