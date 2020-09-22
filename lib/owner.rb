@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def species
-self.species = human
+Owner.species = human
 end
  
  
