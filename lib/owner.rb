@@ -40,9 +40,7 @@ self.dogs << newdog
 end
 
 def walk_dogs
-mood = "happy"
-# newdog = Dog.new(name, self, mood)
-self.dogs.mood
+dogs.all.each {|dog| dog.mood == "happy"}
 end
 
 
