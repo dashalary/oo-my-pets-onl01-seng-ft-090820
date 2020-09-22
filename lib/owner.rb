@@ -32,12 +32,10 @@ end
 def buy_cat(name)
 newcat = Cat.new(name, self) 
 self.cats << newcat
-
-# end
 end
 
-def buy_dog(newdog)
-if newdog == Dog.new(name, self) 
+def buy_dog(name)
+newdog == Dog.new(name, self) 
 self.dogs << newdog
 end
 end
