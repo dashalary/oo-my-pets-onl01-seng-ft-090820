@@ -35,7 +35,7 @@ self.cats << newcat
 end
 
 def buy_dog(name)
-newdog == Dog.new(name, self) 
+newdog = Dog.new(name, self) 
 self.dogs << newdog
 end
 
