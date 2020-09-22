@@ -40,7 +40,7 @@ end
 def buy_dog(newdog)
 if newdog == Dog.new(name, self) 
 self.dogs << newdog
-
+self.dogs[0].name == newdog.name
 end
 
 end
