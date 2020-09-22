@@ -41,7 +41,7 @@ end
 
 def walk_dogs
 dog = Dog.new(name, self)
-self.dogs.mood = "happy"
+dog.mood = "happy"
 end
 
 
