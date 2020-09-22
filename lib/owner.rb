@@ -9,7 +9,6 @@ end
 
 def species
 @species = species
-species = human
 end
  
  
