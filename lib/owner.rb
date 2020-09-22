@@ -38,7 +38,6 @@ def buy_dog(name)
 newdog == Dog.new(name, self) 
 self.dogs << newdog
 end
-end
 
 def walk_dogs 
 Dog.mood = "happy"
