@@ -10,9 +10,12 @@ def initialize(name)
 end
 
 def self.all 
-  @@all
+@@all
 end
  
+def self.count 
+@@all.length 
+end
  
  
  
