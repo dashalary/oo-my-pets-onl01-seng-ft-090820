@@ -8,14 +8,7 @@ def initialize(name, species)
 species = human
 end
 
-def name 
-@name 
-end 
 
-
-def species
-@species
-end
  
  
  
