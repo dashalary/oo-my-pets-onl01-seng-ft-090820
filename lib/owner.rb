@@ -31,7 +31,7 @@ end
 
 def buy_cat(cat)
 cat = Cat.new(name, @owner)
-Cat.all << cat
+cats << cat
 
 end
 
