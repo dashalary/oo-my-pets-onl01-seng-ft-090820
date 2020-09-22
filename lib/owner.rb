@@ -39,8 +39,9 @@ newdog = Dog.new(name, self)
 self.dogs << newdog
 end
 
-def walk_dogs
-Dog.all.mood = "happy"
+def walk_dogs(dog)
+dog = Dog.new(name, self)
+dog.mood = "happy"
 end
 
 
