@@ -31,7 +31,7 @@ end
 
 def buy_cat(newcat)
 newcat = Cat.name
-Cat.all << newcat
+mycats << newcat
 end
 
 
