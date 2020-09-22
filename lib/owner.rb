@@ -40,7 +40,7 @@ self.dogs << newdog
 end
 
 def walk_dogs
-newdog = Dog.new(name, self, mood)
+newdog = Dog.new(name, self)
 newdog.mood = "happy"
 end
 
