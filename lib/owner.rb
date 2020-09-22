@@ -40,7 +40,6 @@ if newdog == Dog.new(name, self)
 self.dogs << newdog
 
 end
-
 end
 
 
