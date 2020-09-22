@@ -39,7 +39,7 @@ newdog = Dog.new(name, self)
 self.dogs << newdog
 end
 
-def walk_dogs(dog)
+def walk_dogs
 dog = Dog.new(name, self)
 dog.mood = "happy"
 end
