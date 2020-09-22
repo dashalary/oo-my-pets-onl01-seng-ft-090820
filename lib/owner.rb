@@ -7,9 +7,9 @@ def initialize(name)
 @species = "human"
 end
 
-# def say_species
-# puts "I am a #{@species}."
-# end
+def say_species
+puts "I am a #{@species}."
+end
  
  
  
